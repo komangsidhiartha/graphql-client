@@ -1,8 +1,4 @@
-export type Message = {
-    body: string
-}
+import type { GetUsersQuery } from "./graphql/generated";
 
-export type User = {
-    name: string
-    messages: Message[]
-}
+export type User = NonNullable<GetUsersQuery["users"]>[number];
+export type Message = NonNullable<User["messages"]>[number];
