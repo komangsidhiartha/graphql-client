@@ -2,6 +2,8 @@
 
 A modern React application that demonstrates GraphQL integration, built with TypeScript, Vite, and Tailwind CSS. This project showcases how to effectively use GraphQL in a React application, including querying data and handling responses.
 
+🔗 [Live Demo](https://graphql-client-dd2z.onrender.com)
+
 ## Features
 
 - 🚀 Built with React 19 and TypeScript
